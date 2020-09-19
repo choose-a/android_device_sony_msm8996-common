@@ -465,4 +465,5 @@ PRODUCT_BOOT_JARS += \
 PRODUCT_SYSTEM_PROPERTY_BLACKLIST := \
     ro.product.model
 
+$(call inherit-product, device/sony/msm8996-common/recovery/twrp.mk)
 $(call inherit-product, vendor/sony/msm8996-common/msm8996-common-vendor.mk)
