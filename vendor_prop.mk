@@ -65,7 +65,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Devinfo for init
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.leeco.devinfo=NULL
+    ro.sony.devinfo=NULL
 
 # Display (Qualcomm Assertive Display)
 PRODUCT_PROPERTY_OVERRIDES += \

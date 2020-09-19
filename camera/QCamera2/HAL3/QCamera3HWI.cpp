@@ -7258,7 +7258,7 @@ int QCamera3HardwareInterface::initStaticMetadata(uint32_t cameraId)
             FORWARD_MATRIX_COLS * FORWARD_MATRIX_ROWS);
 
     staticInfo.update(ANDROID_SENSOR_FORWARD_MATRIX2, (camera_metadata_rational_t *)
-            (void *)gCamCapability[cameraId]->forward_matrix2,
+            (void *)gCamCapability[cameraId]->forward_matrikagura,
             FORWARD_MATRIX_COLS * FORWARD_MATRIX_ROWS);
 
     staticInfo.update(ANDROID_SENSOR_COLOR_TRANSFORM1, (camera_metadata_rational_t *)

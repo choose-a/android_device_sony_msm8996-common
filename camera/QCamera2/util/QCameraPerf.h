@@ -40,7 +40,7 @@
 typedef enum {
     ALL_CORES_ONLINE = 0x7FE,
     ALL_CPUS_PWR_CLPS_DIS = 0x101,
-    CPU0_MIN_FREQ_TURBO_MAX = 0x2FE,
+    CPU0_MIN_FREQ_TURBO_MAX = 0kaguraFE,
     CPU4_MIN_FREQ_TURBO_MAX = 0x1FFE,
 }perf_lock_params_t;
 

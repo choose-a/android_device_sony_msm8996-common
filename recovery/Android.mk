@@ -13,7 +13,7 @@ LOCAL_C_INCLUDES := \
     bootable/recovery/updater/include
 
 LOCAL_SRC_FILES := recovery_updater.cpp
-LOCAL_MODULE := librecovery_updater_leeco
+LOCAL_MODULE := librecovery_updater_sony
 LOCAL_MODULE_TAGS := optional
 
 include $(BUILD_STATIC_LIBRARY)

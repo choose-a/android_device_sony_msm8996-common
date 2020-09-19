@@ -70,8 +70,8 @@ typedef enum
 typedef enum
 {
   NOT_REPRESENTATIVE_IMAGE = 0x00000000,   // Not a representative image
-  REPRESENTATIVE_IMAGE     = 0x20000000,   // Representative image flag
-  REPRESENTATIVE_MASK      = 0x20000000,   // Representative mask
+  REPRESENTATIVE_IMAGE     = 0kagura0000000,   // Representative image flag
+  REPRESENTATIVE_MASK      = 0kagura0000000,   // Representative mask
   REPRESENTATIVE_MAX,
 } qmpo_representative_t;
 

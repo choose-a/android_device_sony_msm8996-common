@@ -15,11 +15,11 @@
 # limitations under the License.
 #
 
-PLATFORM_PATH := device/leeco/msm8996-common
+PLATFORM_PATH := device/sony/msm8996-common
 
 TARGET_SPECIFIC_HEADER_PATH += $(PLATFORM_PATH)/include
 
-BOARD_VENDOR := leeco
+BOARD_VENDOR := sony
 
 # Bootloader
 TARGET_BOOTLOADER_BOARD_NAME := msm8996
@@ -52,7 +52,7 @@ BOARD_KERNEL_CMDLINE += loop.max_part=7
 BOARD_KERNEL_PAGESIZE := 4096
 BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
 TARGET_KERNEL_ARCH := arm64
-TARGET_KERNEL_SOURCE := kernel/leeco/msm8996
+TARGET_KERNEL_SOURCE := kernel/sony/msm8996
 
 TARGET_COMPILE_WITH_MSM_KERNEL := true
 
@@ -149,10 +149,6 @@ DEVICE_FRAMEWORK_MANIFEST_FILE := $(PLATFORM_PATH)/framework_manifest.xml
 DEVICE_MANIFEST_FILE := $(PLATFORM_PATH)/manifest.xml
 DEVICE_MATRIX_FILE := $(PLATFORM_PATH)/compatibility_matrix.xml
 
-# Init
-TARGET_INIT_VENDOR_LIB := //$(PLATFORM_PATH):libinit_leeco_msm8996
-TARGET_RECOVERY_DEVICE_MODULES := libinit_leeco_msm8996
-
 # Partitions (/proc/partitions * 2 * BLOCK_SIZE (512) = size in bytes)
 BOARD_BOOTIMAGE_PARTITION_SIZE := 67108864
 BOARD_CACHEIMAGE_PARTITION_SIZE := 268435456
@@ -174,9 +170,6 @@ TARGET_USES_MKE2FS := true
 
 # Power
 TARGET_USES_INTERACTION_BOOST := true
-
-# Recovery
-TARGET_RECOVERY_UPDATER_LIBS := librecovery_updater_leeco
 
 TARGET_RECOVERY_FSTAB := $(PLATFORM_PATH)/rootdir/etc/fstab.qcom
 
@@ -202,7 +195,7 @@ TARGET_RELEASETOOLS_EXTENSIONS := $(PLATFORM_PATH)
 # RIL
 TARGET_PROVIDES_QTI_TELEPHONY_JAR := true
 
-# Security patch level - (zl1 EUI ROM CN 20s)
+# Security patch level - (kagura_ds EUI ROM CN 20s)
 VENDOR_SECURITY_PATCH := 2016-10-01
 
 # SELinux
@@ -233,4 +226,4 @@ WIFI_DRIVER_FW_PATH_P2P := "p2p"
 WIFI_HIDL_FEATURE_DISABLE_AP_MAC_RANDOMIZATION := true
 WPA_SUPPLICANT_VERSION := VER_0_8_X
 
--include vendor/leeco/msm8996-common/BoardConfigVendor.mk
+-include vendor/sony/msm8996-common/BoardConfigVendor.mk

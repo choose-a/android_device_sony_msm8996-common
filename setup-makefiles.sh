@@ -38,7 +38,7 @@ source "${HELPER}"
 setup_vendor "${DEVICE_COMMON}" "${VENDOR}" "${LINEAGE_ROOT}" "true" "${CLEANUP}"
 
 # Copyright headers and guards
-write_headers "zl1 x2"
+write_headers "kagura_ds kagura"
 
 # The standard msm8996-common blobs
 write_makefiles "${MY_DIR}/proprietary-files.txt" true

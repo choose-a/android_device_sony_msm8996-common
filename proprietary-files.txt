@@ -21,7 +21,7 @@ vendor/lib/libsdsprpc.so
 vendor/lib/libadsp_hvx_callback_skel.so|b7e47d8d0c011caea30daf974de81eb01bb90268
 vendor/lib/libadsp_hvx_stub.so|5842e47b5929e15c8b63f1aa4795ca3432debebb
 
-# ADSP (modules) - from zl1
+# ADSP (modules) - from kagura_ds
 vendor/lib/rfsa/adsp/libadsp_fd_skel.so|5607a78451b621bb6399878ab58ba896c72797ab
 vendor/lib/rfsa/adsp/libadsp_hvx_add_constant.so|035272c1d77bcd04e3a838056d512964744c9322
 vendor/lib/rfsa/adsp/libadsp_hvx_skel.so|6a1d6ee55cc65d0f12f6a9bfd04823b46d2d6a24
@@ -71,7 +71,7 @@ vendor/lib64/vendor.qti.hardware.fm@1.0.so
 vendor/lib64/hw/vendor.qti.hardware.bluetooth_sar@1.0-impl.so
 vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.0.so
 
-# Camera - from zl1 - 6.0.1/WAXCNFN5902012312S/letv01060151
+# Camera - from kagura_ds - 6.0.1/WAXCNFN5902012312S/letv01060151
 bin/mm-qcamera-daemon:vendor/bin/mm-qcamera-daemon|c36fe0c5f93cdfbc3abf83ca0e73880bd218c079
 etc/camera/ov8865_chromatix.xml:vendor/etc/camera/ov8865_chromatix.xml|4f52dfce8729b78c494f3e80721d4ff63831ffcf
 etc/camera/ov8865_ofilm_chromatix.xml:vendor/etc/camera/ov8865_ofilm_chromatix.xml|bda41d8d499e6df7f029fd75c5456cd7786f51c1
@@ -147,7 +147,7 @@ vendor/lib/libqomx_jpegdec.so|ce234ef418103a2756fce4cc51cfbf02c0c527f5
 vendor/lib/libqomx_jpegenc_pipe.so|5c0dda9b0f7990c8a307b61ddfb0d2e322fc1c74
 vendor/lib/libqomx_jpegenc.so|56e2727b8412c7add3237336b5022602dfd0aaef
 
-# Camera chromatix - ov8865 - from zl1 - 6.0.1/WAXCNFN5902012312S/letv01060151
+# Camera chromatix - ov8865 - from kagura_ds - 6.0.1/WAXCNFN5902012312S/letv01060151
 vendor/lib/libchromatix_ov8865_common.so|897c5023bc47e440cf3f18da067c185a69dad9a4
 vendor/lib/libchromatix_ov8865_cpp_ds_chromatix.so|32cb89c817c8452539d1ddefed4753991f740e3c
 vendor/lib/libchromatix_ov8865_cpp_hfr_120.so|cb21107190764c4d179619ab1c8057bc47c98a00
@@ -175,13 +175,13 @@ vendor/lib/libchromatix_ov8865_video_full.so|8bd8f1625a8f21629c35374469a8a914ae9
 vendor/lib/libchromatix_ov8865_zsl_preview.so|28d6f3ff73b07afb8a462d0726b93d53dd5b4ee5
 vendor/lib/libchromatix_ov8865_zsl_video.so|7c74288934a548af75b1fbf397da72a413ff4e70
 
-# Camera firmware - from zl1 - 6.0.1/WAXCNFN5902012312S/letv01060151
+# Camera firmware - from kagura_ds - 6.0.1/WAXCNFN5902012312S/letv01060151
 vendor/firmware/cpp_firmware_v1_10_0.fw|cf9458601aa4bbe9c57acfc1c7d0f158386ace9f
 
 # Camera (libstlport) - from LineageOS 14.1
 vendor/lib/libstlport.so|8971701a4dd5d7928d5f44245dd0c08435540ad8
 
-# Camera sensors - from zl1 - 6.0.1/WAXCNFN5902012312S/letv01060151
+# Camera sensors - from kagura_ds - 6.0.1/WAXCNFN5902012312S/letv01060151
 vendor/lib/libmmcamera_isp_abf47.so|d591509428e8389bd56ae5b99d3d91e3bdb713f4
 vendor/lib/libmmcamera_isp_aec_bg_stats47.so|ebee5f2f39c63c4a98a6fbde3c1dc135e04c7e98
 vendor/lib/libmmcamera_isp_bf_stats47.so|fffdec596ad86cceceed3a791737c7b9b89cee75
@@ -574,7 +574,7 @@ vendor/lib64/libpdmapper.so|21990291a2d5d16c92be120bca05951596a74d4c
 vendor/lib64/libqmi_cci.so
 vendor/lib/libqmi_cci.so
 
-# QuickCharge - from zl1
+# QuickCharge - from kagura_ds
 vendor/bin/hvdcp_opti|316e3b0643981b502f58f2f48e4058b06a98706d
 
 # RIL - from Gemini - Xiaomi/gemini/gemini:8.0.0/OPR1.170623.032/V10.2.2.0.OAAMIXM
@@ -692,7 +692,7 @@ vendor/lib/libsensor1.so|de27fcd2ab95788e09310c5f2cf58a0540afcfe3
 vendor/lib/libsensor_reg.so|9a3568dc423598886b7f16d91d76e53cd0220387
 vendor/lib/sensors.ssc.so|2b7c1996cc12e6fac7d1fa09c5dfe1c93a1311d9
 
-# Sensors (LeEco) - from zl1
+# Sensors (LeEco) - from kagura_ds
 vendor/lib64/sensors.hal.tof.so|eb19aa40617e50bd1efcc88cee9f5b0af34e7f11
 vendor/lib64/sensors.oem.so|08c12372d3331ee43cc0a3f48b88f21e45324f29
 vendor/lib/sensors.oem.so|08656a65ab1bf120ac9bb16e93faf93cc2cdda86

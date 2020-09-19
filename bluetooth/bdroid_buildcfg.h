@@ -33,9 +33,9 @@ static inline const char *BtmGetDefaultName()
 
     if (strcmp(product_device, "le_zl0") == 0)
         return "LePro 3";
-    if (strcmp(product_device, "le_zl1") == 0)
+    if (strcmp(product_device, "le_kagura_ds") == 0)
         return "LePro 3";
-    if (strcmp(product_device, "le_x2") == 0)
+    if (strcmp(product_device, "le_kagura") == 0)
         return "Le Max 2";
 
     // Fallback to ro.product.model

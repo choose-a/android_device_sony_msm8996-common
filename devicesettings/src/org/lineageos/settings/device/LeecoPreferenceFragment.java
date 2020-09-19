@@ -24,7 +24,7 @@ import androidx.preference.PreferenceFragment;
 import androidx.preference.PreferenceScreen;
 import androidx.preference.SwitchPreference;
 
-public class LeecoPreferenceFragment extends PreferenceFragment {
+public class SonyPreferenceFragment extends PreferenceFragment {
     private static final String KEY_CAMERA_FOCUS_FIX_ENABLE = "camera_focus_enable";
     private static final String KEY_QUICK_CHARGE_ENABLE = "quick_charge_enable";
 
@@ -39,7 +39,7 @@ public class LeecoPreferenceFragment extends PreferenceFragment {
 
     @Override
     public void onCreatePreferences(Bundle savedInstanceState, String rootKey) {
-        addPreferencesFromResource(R.xml.leeco_settings_panel);
+        addPreferencesFromResource(R.xml.sony_settings_panel);
         final PreferenceScreen prefSet = getPreferenceScreen();
         mCameraFocusFixEnable = (SwitchPreference) findPreference(KEY_CAMERA_FOCUS_FIX_ENABLE);
         mQuickChargeEnable = (SwitchPreference) findPreference(KEY_QUICK_CHARGE_ENABLE);

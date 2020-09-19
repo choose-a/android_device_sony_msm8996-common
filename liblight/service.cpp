@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-#define LOG_TAG "android.hardware.light@2.0-service.leeco_8996"
+#define LOG_TAG "android.hardware.light@2.0-service.sony_8996"
 
 #include <android-base/logging.h>
 #include <hidl/HidlTransportSupport.h>
@@ -80,10 +80,10 @@ int main() {
         if (deviceInfo.find("le_zl0") == 0) {
             LOG(WARNING) << "DeviceInfo: ZL0";
             hasRGBlight = true;
-        } else if (deviceInfo.find("le_zl1") == 0) {
+        } else if (deviceInfo.find("le_kagura_ds") == 0) {
             LOG(WARNING) << "DeviceInfo: ZL1";
             hasRGBlight = true;
-        } else if (deviceInfo.find("le_x2") == 0) {
+        } else if (deviceInfo.find("le_kagura") == 0) {
             LOG(WARNING) << "DeviceInfo: X2";
         } else {
             LOG(ERROR) << "DeviceInfo: UNKNOWN";

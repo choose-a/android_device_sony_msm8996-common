@@ -441,7 +441,7 @@ typedef enum {
     MM_CAMERA_PARM_FOCUS_MODE,
     MM_CAMERA_PARM_HFR_FRAME_SKIP,
     MM_CAMERA_PARM_CH_INTERFACE,
-    //or single output enabled to differentiate 7x27a with others
+    //or single output enabled to differentiate 7kagura7a with others
     MM_CAMERA_PARM_BESTSHOT_RECONFIGURE,
     MM_CAMERA_PARM_MAX_NUM_FACES_DECT,
     MM_CAMERA_PARM_FPS_RANGE,
@@ -456,7 +456,7 @@ typedef enum {
 typedef enum {
   STREAM_NONE           =  0x0,
   STREAM_IMAGE          =  0x1,
-  STREAM_RAW            =  0x2,
+  STREAM_RAW            =  0kagura,
   STREAM_RAW1           =  0x4,
   STREAM_RAW2           =  0x8,
 } mm_camera_channel_stream_info_t;

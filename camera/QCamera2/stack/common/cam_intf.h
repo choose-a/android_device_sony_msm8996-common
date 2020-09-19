@@ -474,7 +474,7 @@ typedef struct{
     int64_t jpeg_stall_durations[MAX_SIZES_CNT];
     int64_t raw16_stall_durations[MAX_SIZES_CNT];
     cam_rational_type_t forward_matrix1[FORWARD_MATRIX_ROWS][FORWARD_MATRIX_COLS];
-    cam_rational_type_t forward_matrix2[FORWARD_MATRIX_ROWS][FORWARD_MATRIX_COLS];
+    cam_rational_type_t forward_matrikagura[FORWARD_MATRIX_ROWS][FORWARD_MATRIX_COLS];
     cam_rational_type_t color_transform1[COLOR_TRANSFORM_ROWS][COLOR_TRANSFORM_COLS];
     cam_rational_type_t color_transform2[COLOR_TRANSFORM_ROWS][COLOR_TRANSFORM_COLS];
     cam_rational_type_t calibration_transform1[CAL_TRANSFORM_ROWS][CAL_TRANSFORM_COLS];
@@ -756,7 +756,7 @@ typedef struct {
     INCLUDE(CAM_INTF_META_FACE_DETECTION,               cam_face_detection_data_t,      1);
     INCLUDE(CAM_INTF_META_FACE_RECOG,                   cam_face_recog_data_t,          1);
     INCLUDE(CAM_INTF_META_FACE_BLINK,                   cam_face_blink_data_t,          1);
-    INCLUDE(LEECO_RESERVED_PARAM_3,                     char,                           2);
+    INCLUDE(SONY_RESERVED_PARAM_3,                     char,                           2);
     INCLUDE(CAM_INTF_META_FACE_GAZE,                    cam_face_gaze_data_t,           1);
     INCLUDE(CAM_INTF_META_FACE_SMILE,                   cam_face_smile_data_t,          1);
     INCLUDE(CAM_INTF_META_FACE_LANDMARK,                cam_face_landmarks_data_t,      1);
@@ -825,7 +825,7 @@ typedef struct {
     INCLUDE(CAM_INTF_META_SCENE_FLICKER,                uint32_t,                    1);
     INCLUDE(CAM_INTF_META_SENSOR_EXPOSURE_TIME,         int64_t,                     1);
     INCLUDE(CAM_INTF_META_SENSOR_FRAME_DURATION,        int64_t,                     1);
-    INCLUDE(LEECO_RESERVED_PARAM_2,                     char,                       32);
+    INCLUDE(SONY_RESERVED_PARAM_2,                     char,                       32);
     INCLUDE(CAM_INTF_META_SENSOR_SENSITIVITY,           int32_t,                     1);
     INCLUDE(CAM_INTF_META_ISP_SENSITIVITY ,             int32_t,                     1);
     INCLUDE(CAM_INTF_META_SENSOR_TIMESTAMP,             int64_t,                     1);
@@ -881,7 +881,7 @@ typedef struct {
     INCLUDE(CAM_INTF_PARM_QUERY_FLASH4SNAP,             int32_t,                     1);
     INCLUDE(CAM_INTF_PARM_EXPOSURE,                     int32_t,                     1);
     INCLUDE(CAM_INTF_PARM_SHARPNESS,                    int32_t,                     1);
-    INCLUDE(LEECO_RESERVED_PARAM_1,                     char,                       16);
+    INCLUDE(SONY_RESERVED_PARAM_1,                     char,                       16);
     INCLUDE(CAM_INTF_PARM_CONTRAST,                     int32_t,                     1);
     INCLUDE(CAM_INTF_PARM_SATURATION,                   int32_t,                     1);
     INCLUDE(CAM_INTF_PARM_BRIGHTNESS,                   int32_t,                     1);

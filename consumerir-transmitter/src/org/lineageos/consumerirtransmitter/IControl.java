@@ -12,7 +12,7 @@ public class IControl {
     public static final String ACTION = "com.uei.control.IControl";
 
     /**
-     * This is the package name of the Leeco QuickSet service
+     * This is the package name of the Sony QuickSet service
      */
     public static final String QUICKSET_UEI_PACKAGE_NAME = "com.uei.quicksetsdk.letv";
 

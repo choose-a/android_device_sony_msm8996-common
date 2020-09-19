@@ -2086,9 +2086,9 @@ typedef enum {
     CAM_INTF_PARM_MANUAL_FOCUS_POS, /* 180 */
     /* Manual White balance gains */
     CAM_INTF_PARM_WB_MANUAL,
-    LEECO_RESERVED_PARAM_1,
-    LEECO_RESERVED_PARAM_2,
-    LEECO_RESERVED_PARAM_3,
+    SONY_RESERVED_PARAM_1,
+    SONY_RESERVED_PARAM_2,
+    SONY_RESERVED_PARAM_3,
     /* Offline Data Overwrite */
     CAM_INTF_PARM_HW_DATA_OVERWRITE,
     /* IMG LIB reprocess debug section */

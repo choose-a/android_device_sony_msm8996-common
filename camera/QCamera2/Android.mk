@@ -31,7 +31,7 @@ LOCAL_SRC_FILES += \
 
 LOCAL_CFLAGS := -Wall -Wextra -Werror -Wno-unused-parameter -Wno-unused-variable
 
-ifeq ($(TARGET_DEVICE), x2)
+ifeq ($(TARGET_DEVICE), kagura)
 LOCAL_CFLAGS += -DDEVICE_X2
 endif
 

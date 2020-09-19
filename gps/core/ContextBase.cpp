@@ -212,10 +212,10 @@ void ContextBase::readConfig()
 }
 
 uint32_t ContextBase::getCarrierCapabilities() {
-    #define carrierMSA (uint32_t)0x2
+    #define carrierMSA (uint32_t)0kagura
     #define carrierMSB (uint32_t)0x1
     #define gpsConfMSA (uint32_t)0x4
-    #define gpsConfMSB (uint32_t)0x2
+    #define gpsConfMSB (uint32_t)0kagura
     uint32_t capabilities = mGps_conf.CAPABILITIES;
     if ((mGps_conf.SUPL_MODE & carrierMSA) != carrierMSA) {
         capabilities &= ~gpsConfMSA;

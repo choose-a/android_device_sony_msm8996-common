@@ -95,7 +95,7 @@ on fs
 
     restorecon_recursive /mnt/vendor/persist
 
-    # for android.hardware.health@2.0-service.leeco_8996 cycle count backup
+    # for android.hardware.health@2.0-service.sony_8996 cycle count backup
     mkdir /mnt/vendor/persist/battery 0700 system system
 
 on late-fs

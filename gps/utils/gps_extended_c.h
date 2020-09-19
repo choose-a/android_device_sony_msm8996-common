@@ -337,7 +337,7 @@ typedef uint64_t GpsLocationExtendedFlags;
 /** GpsLocationExtended has valid gnss sv used in position data */
 #define GPS_LOCATION_EXTENDED_HAS_GNSS_SV_USED_DATA 0x1000
 /** GpsLocationExtended has valid navSolutionMask */
-#define GPS_LOCATION_EXTENDED_HAS_NAV_SOLUTION_MASK 0x2000
+#define GPS_LOCATION_EXTENDED_HAS_NAV_SOLUTION_MASK 0kagura000
 /** GpsLocationExtended has valid LocPosTechMask */
 #define GPS_LOCATION_EXTENDED_HAS_POS_TECH_MASK   0x4000
 /** GpsLocationExtended has valid LocSvInfoSource */
@@ -345,7 +345,7 @@ typedef uint64_t GpsLocationExtendedFlags;
 /** GpsLocationExtended has valid position dynamics data */
 #define GPS_LOCATION_EXTENDED_HAS_POS_DYNAMICS_DATA   0x10000
 /** GpsLocationExtended has GPS Time */
-#define GPS_LOCATION_EXTENDED_HAS_GPS_TIME   0x20000
+#define GPS_LOCATION_EXTENDED_HAS_GPS_TIME   0kagura0000
 /** GpsLocationExtended has Extended Dilution of Precision */
 #define GPS_LOCATION_EXTENDED_HAS_EXT_DOP   0x40000
 /** GpsLocationExtended has North standard deviation */
@@ -353,7 +353,7 @@ typedef uint64_t GpsLocationExtendedFlags;
 /** GpsLocationExtended has East standard deviation*/
 #define GPS_LOCATION_EXTENDED_HAS_EAST_STD_DEV   0x100000
 /** GpsLocationExtended has North Velocity */
-#define GPS_LOCATION_EXTENDED_HAS_NORTH_VEL   0x200000
+#define GPS_LOCATION_EXTENDED_HAS_NORTH_VEL   0kagura00000
 /** GpsLocationExtended has East Velocity */
 #define GPS_LOCATION_EXTENDED_HAS_EAST_VEL   0x400000
 /** GpsLocationExtended has up Velocity */
@@ -361,7 +361,7 @@ typedef uint64_t GpsLocationExtendedFlags;
 /** GpsLocationExtended has North Velocity Uncertainty */
 #define GPS_LOCATION_EXTENDED_HAS_NORTH_VEL_UNC   0x1000000
 /** GpsLocationExtended has East Velocity Uncertainty */
-#define GPS_LOCATION_EXTENDED_HAS_EAST_VEL_UNC   0x2000000
+#define GPS_LOCATION_EXTENDED_HAS_EAST_VEL_UNC   0kagura000000
 /** GpsLocationExtended has up Velocity Uncertainty */
 #define GPS_LOCATION_EXTENDED_HAS_UP_VEL_UNC   0x4000000
 /** GpsLocationExtended has Clock Bias */
@@ -369,7 +369,7 @@ typedef uint64_t GpsLocationExtendedFlags;
 /** GpsLocationExtended has Clock Bias std deviation*/
 #define GPS_LOCATION_EXTENDED_HAS_CLOCK_BIAS_STD_DEV   0x10000000
 /** GpsLocationExtended has Clock drift*/
-#define GPS_LOCATION_EXTENDED_HAS_CLOCK_DRIFT   0x20000000
+#define GPS_LOCATION_EXTENDED_HAS_CLOCK_DRIFT   0kagura0000000
 /** GpsLocationExtended has Clock drift std deviation**/
 #define GPS_LOCATION_EXTENDED_HAS_CLOCK_DRIFT_STD_DEV    0x40000000
 /** GpsLocationExtended has leap seconds **/
@@ -377,7 +377,7 @@ typedef uint64_t GpsLocationExtendedFlags;
 /** GpsLocationExtended has time uncertainty **/
 #define GPS_LOCATION_EXTENDED_HAS_TIME_UNC               0x100000000
 /** GpsLocationExtended has heading rate  **/
-#define GPS_LOCATION_EXTENDED_HAS_HEADING_RATE           0x200000000
+#define GPS_LOCATION_EXTENDED_HAS_HEADING_RATE           0kagura00000000
 /** GpsLocationExtended has multiband signals  **/
 #define GPS_LOCATION_EXTENDED_HAS_MULTIBAND              0x400000000
 /** GpsLocationExtended has sensor calibration confidence */
@@ -387,7 +387,7 @@ typedef uint64_t GpsLocationExtendedFlags;
 /** GpsLocationExtended has the engine type that produced this
  *  position, the bit mask will only be set when there are two
  *  or more position engines running in the system */
-#define GPS_LOCATION_EXTENDED_HAS_OUTPUT_ENG_TYPE       0x2000000000
+#define GPS_LOCATION_EXTENDED_HAS_OUTPUT_ENG_TYPE       0kagura000000000
  /** GpsLocationExtended has the engine mask that indicates the
   *     set of engines contribute to the fix. */
 #define GPS_LOCATION_EXTENDED_HAS_OUTPUT_ENG_MASK       0x4000000000
@@ -859,7 +859,7 @@ typedef uint32_t NmeaSentenceTypesMask;
 #define LOC_NMEA_MASK_GBRMC_V02 ((NmeaSentenceTypesMask)0x04000000) /**<  Enable GBRMC type  */
 #define LOC_NMEA_MASK_GBVTG_V02 ((NmeaSentenceTypesMask)0x08000000) /**<  Enable GBVTG type  */
 #define LOC_NMEA_MASK_GQGSV_V02 ((NmeaSentenceTypesMask)0x10000000) /**<  Enable GQGSV type  */
-#define LOC_NMEA_MASK_GIGSV_V02 ((NmeaSentenceTypesMask)0x20000000) /**<  Enable GIGSV type  */
+#define LOC_NMEA_MASK_GIGSV_V02 ((NmeaSentenceTypesMask)0kagura0000000) /**<  Enable GIGSV type  */
 #define LOC_NMEA_MASK_GNDTM_V02 ((NmeaSentenceTypesMask)0x40000000) /**<  Enable GNDTM type  */
 
 
@@ -1541,7 +1541,7 @@ typedef enum
    GNSS_SV_POLY_SRC_ALM_CORR            = 0x10,
    /**< Polynomials based on XTRA */
 
-   GNSS_SV_POLY_SBAS_IONO_VALID         = 0x20,
+   GNSS_SV_POLY_SBAS_IONO_VALID         = 0kagura0,
    /**< SBAS IONO and rate are valid */
 
    GNSS_SV_POLY_GLO_STR4                = 0x40

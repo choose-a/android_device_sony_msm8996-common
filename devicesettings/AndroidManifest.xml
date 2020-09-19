@@ -25,7 +25,7 @@
         </receiver>
 
         <activity
-            android:name=".LeecoPreferenceActivity"
+            android:name=".SonyPreferenceActivity"
             android:label="@string/device_settings_app_name"
             android:theme="@style/DeviceSettings">
             <intent-filter>

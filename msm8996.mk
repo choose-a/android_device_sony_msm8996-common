@@ -154,7 +154,7 @@ PRODUCT_PACKAGES += \
 
 # Consumer IR
 PRODUCT_PACKAGES += \
-    android.hardware.ir@1.0-service.leeco_8996 \
+    android.hardware.ir@1.0-service.sony_8996 \
     ConsumerirTransmitter
 
 # CryptfsHW
@@ -226,7 +226,7 @@ PRODUCT_COPY_FILES += \
 
 # Healthd
 PRODUCT_PACKAGES += \
-    android.hardware.health@2.0-service.leeco_8996 \
+    android.hardware.health@2.0-service.sony_8996 \
     charger_res_images
 
 # HIDL
@@ -258,11 +258,11 @@ PRODUCT_PACKAGES += \
 
 # Lights
 PRODUCT_PACKAGES += \
-    android.hardware.light@2.0-service.leeco_8996
+    android.hardware.light@2.0-service.sony_8996
 
 # Lineage hardware
 PRODUCT_PACKAGES += \
-    vendor.lineage.touch@1.0-service.leeco_8996
+    vendor.lineage.touch@1.0-service.sony_8996
 
 # LiveDisplay
 PRODUCT_PACKAGES += \
@@ -335,7 +335,7 @@ PRODUCT_PACKAGES += \
 
 # Recovery
 PRODUCT_PACKAGES += \
-    librecovery_updater_leeco
+    librecovery_updater_sony
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/prebuilt/sgdisk:root/system/bin/sgdisk
@@ -363,7 +363,7 @@ PRODUCT_PACKAGES += \
 
 # Soong
 PRODUCT_SOONG_NAMESPACES += \
-    device/leeco/msm8996-common
+    device/sony/msm8996-common
 
 # Seccomp policy
 PRODUCT_COPY_FILES += \
@@ -465,4 +465,4 @@ PRODUCT_BOOT_JARS += \
 PRODUCT_SYSTEM_PROPERTY_BLACKLIST := \
     ro.product.model
 
-$(call inherit-product, vendor/leeco/msm8996-common/msm8996-common-vendor.mk)
+$(call inherit-product, vendor/sony/msm8996-common/msm8996-common-vendor.mk)

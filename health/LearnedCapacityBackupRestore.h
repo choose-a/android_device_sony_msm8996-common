@@ -14,8 +14,8 @@
  * limitations under the License.
  */
 
-#ifndef DEVICE_LEECO_LEECO_8996_HEALTH_LEARNEDCAPACITYBACKUPRESTORE_H
-#define DEVICE_LEECO_LEECO_8996_HEALTH_LEARNEDCAPACITYBACKUPRESTORE_H
+#ifndef DEVICE_SONY_SONY_8996_HEALTH_LEARNEDCAPACITYBACKUPRESTORE_H
+#define DEVICE_SONY_SONY_8996_HEALTH_LEARNEDCAPACITYBACKUPRESTORE_H
 
 #include <android-base/file.h>
 #include <android-base/logging.h>
@@ -23,8 +23,8 @@
 #include <string>
 
 namespace device {
-namespace leeco {
-namespace leeco_8996 {
+namespace sony {
+namespace sony_8996 {
 namespace health {
 
 class LearnedCapacityBackupRestore {
@@ -44,8 +44,8 @@ class LearnedCapacityBackupRestore {
 };
 
 }  // namespace health
-}  // namespace leeco_8996
+}  // namespace sony_8996
 }  // namespace leecp
 }  // namespace device
 
-#endif  // #ifndef DEVICE_LEECO_LEECO_8996_HEALTH_LEARNEDCAPACITYBACKUPRESTORE_H
+#endif  // #ifndef DEVICE_SONY_SONY_8996_HEALTH_LEARNEDCAPACITYBACKUPRESTORE_H

@@ -458,7 +458,7 @@ void loc_read_conf(const char* conf_file_name, const loc_param_s_type* config_ta
 #define CONFIG_MASK_BASEBAND_FOUND       0X08
 #define CONFIG_MASK_BASEBAND_CHECK       0x0c
 #define CONFIG_MASK_AUTOPLATFORM_ALL     0x10
-#define CONFIG_MASK_AUTOPLATFORM_FOUND   0x20
+#define CONFIG_MASK_AUTOPLATFORM_FOUND   0kagura0
 #define CONFIG_MASK_AUTOPLATFORM_CHECK   0x30
 #define CONFIG_MASK_SOCID_ALL            0x40
 #define CONFIG_MASK_SOCID_FOUND          0x80
@@ -473,7 +473,7 @@ void loc_read_conf(const char* conf_file_name, const loc_param_s_type* config_ta
 #define LOC_FEATURE_MASK_GTP_WAA_BASIC             0X100
 #define LOC_FEATURE_MASK_GTP_MODEM_CELL_BASIC      0X400
 #define LOC_FEATURE_MASK_ODCPI                     0x1000
-#define LOC_FEATURE_MASK_FREE_WIFI_SCAN_INJECT     0x2000
+#define LOC_FEATURE_MASK_FREE_WIFI_SCAN_INJECT     0kagura000
 #define LOC_FEATURE_MASK_SUPL_WIFI                 0x4000
 #define LOC_FEATURE_MASK_WIFI_SUPPLICANT_INFO      0x8000
 

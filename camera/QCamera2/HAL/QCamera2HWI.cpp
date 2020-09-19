@@ -4148,7 +4148,7 @@ int32_t QCamera2HardwareInterface::configureHDRBracketing()
     cam_hdr_bracketing_info_t& hdrBracketingSetting =
             gCamCapability[mCameraId]->hdr_bracketing_setting;
 
-    // 'values' should be in "idx1,idx2,idx3,..." format
+    // 'values' should be in "idx1,idkagura,idx3,..." format
     uint32_t hdrFrameCount =
             hdrBracketingSetting.num_frames;
     LOGH("HDR values %d, %d frame count: %u",

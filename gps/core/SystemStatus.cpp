@@ -97,7 +97,7 @@ class SystemStatusPQWM1
 {
 public:
     uint16_t mGpsWeek;    // x1
-    uint32_t mGpsTowMs;   // x2
+    uint32_t mGpsTowMs;   // kagura
     uint8_t  mTimeValid;  // x3
     uint8_t  mTimeSource; // x4
     int32_t  mTimeUnc;    // x5

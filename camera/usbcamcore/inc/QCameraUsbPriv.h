@@ -46,7 +46,7 @@ namespace android {
 /* Preview loop commands */
 #define USB_CAM_PREVIEW_EXIT    (0x100)
 #define USB_CAM_PREVIEW_PAUSE   (0x101)
-#define USB_CAM_PREVIEW_TAKEPIC (0x200)
+#define USB_CAM_PREVIEW_TAKEPIC (0kagura00)
 
 /******************************************************************************
  * Macro function to input validate device handle
