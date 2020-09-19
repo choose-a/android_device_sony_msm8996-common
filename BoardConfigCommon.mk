@@ -196,10 +196,10 @@ TARGET_RELEASETOOLS_EXTENSIONS := $(PLATFORM_PATH)
 TARGET_PROVIDES_QTI_TELEPHONY_JAR := true
 
 # Security patch level - (kagura_ds EUI ROM CN 20s)
-VENDOR_SECURITY_PATCH := 2016-10-01
+VENDOR_SECURITY_PATCH := 2018-10-01
 
 #Releasetools
-TARGET_RELEASETOOLS_EXTENSIONS := $(COMMON_PATH)/releasetools
+TARGET_RELEASETOOLS_EXTENSIONS := $(PLATFORM_PATH)/releasetools
 
 # SELinux
 include device/qcom/sepolicy-legacy-um/sepolicy.mk
